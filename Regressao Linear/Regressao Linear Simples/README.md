@@ -26,7 +26,8 @@ Faça o tratamento dos dados, faça regressão linear e tire o resíduo para sab
 ### Dados:
 Abaixo estão as cinco primeiras linhas dos dados que foram disponibilizados em uma planilha do Excel com 27 linhas e 3 colunas.
 
-![5 primeiras linhas ds dados](./Regress%C3%A3o%20Linear/Regress%C3%A3o%20Linear%20Simples/images/Dados_iniciais.png)
+![5 primeiras linhas ds dados](./images/Dados_iniciais.png)
+
 
 ## Entendimento dos dados:
 ### Objetivo:
@@ -40,18 +41,18 @@ A variável métrica deste exercício é a coluna "ano_2015".
 ### Sumário OLS:
 Abaixo está o sumário OLS que foi obtido.
 
-![5 primeiras linhas ds dados](./Regress%C3%A3o%20Linear/Regress%C3%A3o%20Linear%20Simples/images/Sumario_ols.png)
+![5 primeiras linhas ds dados](./images/Sumario_ols.png)
 
 
 ### Dados:
 Abaixo estão as cinco primeiras linhas dos dados que foram obtidos.
 
-![5 primeiras linhas ds dados](./Regress%C3%A3o%20Linear/Regress%C3%A3o%20Linear%20Simples/images/Dados_finais.png)
+![5 primeiras linhas ds dados](./images/Dados_finais.png)
 
 ### Comparação entre dados reais e preditos:
 Abaixo estão as cinco primeiras linhas dos dados que foram obtidos.
 
-![5 primeiras linhas ds dados](./Regress%C3%A3o%20Linear/Regress%C3%A3o%20Linear%20Simples/images/Comparacao.png)
+![5 primeiras linhas ds dados](./images/Comparacao.png)
 
 
 ## Conclusão:

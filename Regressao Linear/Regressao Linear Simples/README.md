@@ -50,7 +50,7 @@ Abaixo estão as cinco primeiras linhas dos dados que foram obtidos.
 ![5 primeiras linhas ds dados](./images/Dados_finais.png)
 
 ### Comparação entre dados reais e preditos:
-Abaixo estão as cinco primeiras linhas dos dados que foram obtidos.
+Abaixo está o gráfico que mostra como os valores previstos e os valores reais são semelhantes.
 
 ![5 primeiras linhas ds dados](./images/Comparacao.png)
 

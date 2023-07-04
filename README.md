@@ -1,4 +1,4 @@
-# Pasta com os projetos que utilizam a biblioteca pandas
+# Pasta com projetos que utilizam a biblioteca pandas
 
 Seja bem vindo aos meu projetos que utilizam a biblioteca pandas.
 

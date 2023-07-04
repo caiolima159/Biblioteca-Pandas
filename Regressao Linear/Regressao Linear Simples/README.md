@@ -9,7 +9,7 @@
 - [Entendimento dos Dados](#entendimento-dos-dados)
     - [Objetivo](#objetivo)
     - [Variável target](#variável-target)
-    - [Métricas](#métricas)
+    - [Variáveis explicativas](#variáveis-explicativas)
 - [Resultados](#resultados)
     - [Sumário OLS](#sumário-ols)
     - [Dados](#dados)
@@ -34,8 +34,8 @@ Abaixo estão as cinco primeiras linhas dos dados que foram disponibilizados em 
 Realizar predições de 2016 utilizando os dados de 2015. Com base nessa predição, criar uma coluna de resíduo para fazer uma comparação entre os dados previstos com os dados reais.
 ### Variável target:
 A variável target deste exercício é a coluna "ano_2016".
-### Métricas:
-A variável métrica deste exercício é a coluna "ano_2015".
+### Variáveis explicativas:
+A variável explicativa deste exercício é a coluna "ano_2015".
 
 ## Resultados:
 ### Sumário OLS:

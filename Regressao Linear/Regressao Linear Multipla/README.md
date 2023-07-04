@@ -1,4 +1,4 @@
-# Projeto de Regressão Linear Simples
+# Projeto de Regressão Linear Multipla
 
 ## Índice
 - [Contextualização do exercício](#contextualização-do-exercício)

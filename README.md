@@ -1,5 +1,5 @@
-# Pasta com os projetos de regressão linear
+# Pasta com os projetos que utilizam a biblioteca pandas
 
-Seja bem vindo aos meu projetos de regressão linear.
+Seja bem vindo aos meu projetos que utilizam a biblioteca pandas.
 
-Sinta-se livre para escolher qual projeto você deseja observar.
+Sinta-se livre para escolher qual tipo de projeto você deseja observar.

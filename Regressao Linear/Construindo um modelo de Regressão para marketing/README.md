@@ -72,10 +72,12 @@ Ao observar o gráfico de pairplot, nota-se que o youtube é o valor que se rela
 
 ### Treinamento do modelo:
 Para realizar o treino do modelo, 70% do dados foram separados como variáveis de treino e 30% como variáveis de teste, onde 119 linhas dos dados foram utilizadas para treino e 52 para teste, como pode ser visto abaixo.
+
 ![Treino e teste](./images/treino_teste.png)
 
 ### R²
 Após realizar o treino do modelo, foi feito o cálculo do R² para saber a % de acerto do modelo, como pode ser visto abaixo.
+
 ![R²](./images/r2.png)
 
 ### Comparação entre dados reais e preditos:

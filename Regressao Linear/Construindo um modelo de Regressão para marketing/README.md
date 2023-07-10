@@ -52,6 +52,7 @@ A variável target deste exercício é a coluna "sales".
 As variáveis explicativas deste exercício são as colunas "youtube", "facebook" e "newspaper".
 ### Relação entre a variável target e as variáveis explicativas:
 Foram feitos gráficos de pairplot para analisar visualmente o comportamento dos dados das plataformas com relação as vendas, como pode ser visto abaixo.
+
 ![Relacao das plataformas com as vendas](./images/pairplot.png)
 
 Esses dados também podem ser observados em forma numérica, onde a correlação varia de 0-1, e quanto maior a correlação entre as variáveis mais relacionadas elas estão, o youtube tem maior correlação, seguido pelo facebook, e por fim o newspaper, como pode ser visto abaixo.

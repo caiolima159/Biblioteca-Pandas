@@ -16,7 +16,7 @@
 - [Resultados](#resultados)
     - [Correlações](#correlações)
     - [Treinamento do modelo](#treinamento-do-modelo)
-    - [R²](#r²)
+    - [R-squared](#r-squared)
     - [Comparação entre dados reais e preditos](#comparação-entre-dados-reais-e-preditos)
 - [Testando a hipótese](#testando-a-hipótese)
     - [Cálculo de contribuição](#cálculo-de-contribuição)
@@ -75,7 +75,7 @@ Para realizar o treino do modelo, 70% do dados foram separados como variáveis d
 
 ![Treino e teste](./images/treino_teste.png)
 
-### R²
+### R-squared:
 Após realizar o treino do modelo, foi feito o cálculo do R² para saber a % de acerto do modelo, como pode ser visto abaixo.
 
 ![R²](./images/r2.png)

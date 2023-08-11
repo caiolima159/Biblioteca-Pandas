@@ -90,3 +90,16 @@ A coluna InvoiceDate deveria ser do tipo inteiro, mas está como string. Com iss
 Por fim, foi feita a conferência final dos tipos de dados.
 
 ![Análise dos tipos de dados](./images/tipos_dados_finais.png)
+
+## Dados dispensáveis:
+### País Unspecified:
+Ao observar os dados presentes na coluna Country, foi visto que haviam dados do país "Unspecified", como precisamos saber a origem dos dados, decidiu-se remover estes dados.
+
+![Análise do país "Unspecified"](./images/Unspecified.png)
+
+### Outliers
+A empresa definiu que os seguintes tipos de dados eram erros que devem ser removidos: quantidade maior que 10k ou o preço unitário maior que 5k. Dito isto, esses dados foram removidos do DataFrame.
+
+## Dados extras necessários:
+### Preço total:
+Foi criada uma coluna com o preço total das compras para que fosse possível realizar alguns cálculos. Essa coluna foi formada atráves da multiplicação da quantidade vezes o preço unitário, e recebeu o nome de Total.

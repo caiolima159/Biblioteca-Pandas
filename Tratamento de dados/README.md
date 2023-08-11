@@ -13,6 +13,21 @@
     - [Objetivo](#objetivo)
     - [Objetivo](#objetivo)  
 - [Desenvolvimento](#desenvolvimento)
+    - [Duplicatas](#duplicatas)
+    - [Porcentagem nulos](#porcentagem-nulos)
+    - [Quantidade e preço nulos ou negativos](#quantidade-e-preço-nulos-ou-negativos)
+    - [Nulos](#nulos)
+- [Tipos de dados](#tipos-de-dados)
+    - [Conferindo os tipos de dados](#Conferindo-os-tipos-de-dados)
+    - [Colunas tipo object](#colunas-tipo-object)
+    - [Corrigindo a coluna InvoiceDate](#corrigindo-a-coluna-InvoiceDate)
+    - [Corrigindo a coluna CustomerID](#corrigindo-a-coluna-CustomerID)
+    - [Conferência final](#conferência-final)
+- [Dados dispensáveis](#Dados-dispensáveis)
+    - [País Unspecified](#país-Unspecified)
+    - [Outliers](#Outliers)
+- [Dados extras necessários](#Dados-extras-necessários)
+    - [Preço total](#Preço-total)
 
 ## Contextualização do modelo:
 ### Contexto:

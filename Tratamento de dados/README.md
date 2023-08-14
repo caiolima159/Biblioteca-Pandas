@@ -1,6 +1,11 @@
 # Construindo um modelo de Regressão para marketing
 
 ## Índice
+- [Como abrir o projeto no colab](#Como-abrir-o-projeto-no-colab)
+    - [Acessando o site](#Acessando-o-site)
+    - [Link Github](#Link-Github)
+    - [Acessando o código](#Acessando-o-código)
+    - [Base de dados](#Base-de-dados)
 - [Contextualização do modelo](#contextualização-do-modelo)
     - [Contexto](#contexto)
     - [Resultado esperado](#resultado-esperado)
@@ -28,6 +33,42 @@
     - [Outliers](#Outliers)
 - [Dados extras necessários](#Dados-extras-necessários)
     - [Preço total](#Preço-total)
+    - [Última compra](#Última-compra)
+
+## Como abrir o projeto no colab
+Para ter acesso ao projeto no google colab será necessário realizar alguns simples passos
+### Acessando o site
+Pesquise por google colab no google e clique no primeiro link
+
+![Pesquisando no google](./images/google.png)
+
+### Link Github
+Para obter o link do projeto, siga os seguintes passos:
+1- Acesse o meu perfil do github através do site: github.com/caiolima159
+2- Clique no repositório chamado de Biblioteca-Pandas.
+
+![Acessando o meu github](./images/github.png)
+
+3- Acesse a pasta de tratamento de dados
+
+![Acessando a pasta de tratamento de dados](./images/repositorios.png)
+
+4- Acesse a pasta main
+
+![Acessando a pasta main](./images/main.png)
+
+5- Acesse as opções
+
+![Acessando as opções](./images/opções.png)
+
+5- Clique em copy permalink
+
+![Copiando o link](./images/link.png)
+
+### Acessando o código
+
+
+### Base de dados  
 
 ## Contextualização do modelo:
 ### Contexto:
@@ -118,3 +159,29 @@ A empresa definiu que os seguintes tipos de dados eram erros que devem ser remov
 ## Dados extras necessários:
 ### Preço total:
 Foi criada uma coluna com o preço total das compras para que fosse possível realizar alguns cálculos. Essa coluna foi formada atráves da multiplicação da quantidade vezes o preço unitário, e recebeu o nome de Total.
+### Última compra
+Calculando a data da última compra no dataset como um todo, pois vamos utilizar este valor como data de comparação para cálculo da recência.
+
+![Última compra](./images/ultima_compra.png)
+
+## Gráficos
+### Top 10 países em valor de vendas
+Calculando a soma total das vendas feitas por cada país e classificando os 10 maiores.
+
+![Valores em vendas](./images/valores_vendas.png)
+
+Baseado nesses valores, foi traçado um gráfico de barras para melhorar a visualização dos resultados.
+
+![Gráfico de valores em vendas](./images/graf_valores_vendas.png)
+
+### Top 10 produtos mais vendidos
+Calculando a soma total das quantidades vendidas de cada produto e classificando os 10 maiores.
+
+![Quantidades vendidas](./images/quantidade.png)
+
+Baseado nesses valores, foi traçado um gráfico de barras para melhorar a visualização dos resultados.
+
+![Gráfico de quantidades vendidas](./images/graf_quantidade.png)
+
+
+

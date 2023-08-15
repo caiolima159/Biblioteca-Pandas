@@ -2,8 +2,8 @@
 
 ## Índice
 - [Como abrir o projeto no colab](#Como-abrir-o-projeto-no-colab)
-    - [Acessando o site](#Acessando-o-site)
     - [Link Github](#Link-Github)
+    - [Acessando o site](#Acessando-o-site)
     - [Acessando o código](#Acessando-o-código)
     - [Base de dados](#Base-de-dados)
 - [Contextualização do modelo](#contextualização-do-modelo)
@@ -36,11 +36,7 @@
     - [Última compra](#Última-compra)
 
 ## Como abrir o projeto no colab
-Para ter acesso ao projeto no google colab será necessário realizar alguns simples passos
-### Acessando o site
-Pesquise por google colab no google e clique no primeiro link
-
-![Pesquisando no google](./images/google.png)
+Para ter acesso ao projeto no google colab será necessário realizar alguns passos
 
 ### Link Github
 Para obter o link do projeto, siga os seguintes passos:
@@ -65,8 +61,19 @@ Para obter o link do projeto, siga os seguintes passos:
 
 ![Copiando o link](./images/link.png)
 
-### Acessando o código
+### Acessando o site
+Pesquise por google colab no google e clique no primeiro link
 
+![Pesquisando no google](./images/google.png)
+
+### Acessando o código
+Ao acessar o site do colab, clique na aba GitHub
+
+![Aba do GitHub no colab](./images/colab.png)
+
+Em seguida, basta colar o link obtido no GitHub e selecionar a opção de Desafio5
+
+![Selecionando o projeto](./images/desafio5.png)
 
 ### Base de dados  
 

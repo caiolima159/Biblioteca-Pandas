@@ -1,4 +1,4 @@
-# Construindo um modelo de Regressão para marketing
+# Levantamento dos Indicadores RFM para uma Empresa de E-commerce
 
 ## Índice
 - [Como abrir o projeto no colab](#Como-abrir-o-projeto-no-colab)
@@ -40,7 +40,9 @@ Para ter acesso ao projeto no google colab será necessário realizar alguns pas
 
 ### Link Github
 Para obter o link do projeto, siga os seguintes passos:
+
 1- Acesse o meu perfil do github através do site: github.com/caiolima159
+
 2- Clique no repositório chamado de Biblioteca-Pandas.
 
 ![Acessando o meu github](./images/github.png)
@@ -57,7 +59,7 @@ Para obter o link do projeto, siga os seguintes passos:
 
 ![Acessando as opções](./images/opções.png)
 
-5- Clique em copy permalink
+6- Clique em copy permalink
 
 ![Copiando o link](./images/link.png)
 

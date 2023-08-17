@@ -34,6 +34,14 @@
 - [Dados extras necessários](#Dados-extras-necessários)
     - [Preço total](#Preço-total)
     - [Última compra](#Última-compra)
+- [Gráficos](#Gráficos)
+    - [Top 10 países em valor de vendas](#Top-10-países-em-valor-de-vendas)
+    - [Top 10 produtos mais vendidos](#Top-10-produtos-mais-vendidos)
+    - [Top 10 valor de venda por mês](#Top-10-valor-de-venda-por-mês)
+    - [Top 10 valor de venda total por mês e por país](#Top-10-valor-de-venda-total-por-mês-e-por-país)
+- [RFM](#RFM)
+    - [Criando o RFM](#Criando-o-RFM)
+    - [Nulos](#nulos)
 
 ## Como abrir o projeto no colab
 Para ter acesso ao projeto no google colab será necessário realizar alguns passos
@@ -222,4 +230,32 @@ Frequency é a quantidade de vezes que este cliente fez compras;
 
 Monetary_Value é a quantidade de dinheiro que o cliente gastou.
 
+Portanto, em um cenário ideal, os melhores clientes teriam recência baixa (interagiram recentemente), frequência alta (são engajados e interagem frequentemente) e valor monetário alto (geram receita significativa para a empresa). Esses são os clientes que muitas vezes são alvos de estratégias de retenção, programas de fidelidade e campanhas de marketing direcionadas.
+
 ![DataFrame do RFM](./images/rfm.png)
+
+### Separando em quartis
+Para classificar os melhores clientes foram criadas 3 novas colunas: r_quartil, f_quartil e m_quartil, onde:
+
+r_quartil: Os dados foram separados em 4 grupos (1, 2, 3, 4), onde quanto menor o valor de recency, maior a nota. 
+
+f_quartil: Os dados foram separados em 4 grupos (1, 2, 3, 4), onde quanto maior o valor de frequency, maior a nota. 
+
+m_quartil: Os dados foram separados em 4 grupos (1, 2, 3, 4), onde quanto maior o valor de monetary_value, maior a nota. 
+
+Por fim, foram somados os 3 valores para obter a nota do cliente.
+
+![DataFrame do RFM com os quartis e notas dos clientes](./images/notas.png)
+
+### Ordenando as notas por valor monetário
+Os dados foram agrupados por nota e classificados de acordo com o valor monetário gerado por cada grupo, e como esperado, quanto maior a nota, maior o valor gerado pelo grupo.
+
+![Valor monetário por nota dos clientes](./images/notas_agg.png)
+
+Baseado nesses valores, foi traçado um gráfico de barras para melhorar a visualização dos resultados.
+
+![Gráfico de valor monetário por nota dos clientes](./images/graf_notas_agg.png)
+
+E para finalizar, foi feito um gráfico de barras mostrando a distribuição de clientes por nota.
+
+![Distribuição de clientes por nota](./images/distribuicao_clientes.png)

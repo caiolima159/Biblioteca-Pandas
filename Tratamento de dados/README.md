@@ -41,7 +41,9 @@
     - [Top 10 valor de venda total por mês e por país](#Top-10-valor-de-venda-total-por-mês-e-por-país)
 - [RFM](#RFM)
     - [Criando o RFM](#Criando-o-RFM)
-    - [Nulos](#nulos)
+    - [Separando em quartis](#Separando-em-quartis)
+    - [Ordenando as notas por valor monetário](#Ordenando-as-notas-por-valor-monetário)
+    - [Gerando o csv](#Gerando-o-csv)
 
 ## Como abrir o projeto no colab
 Para ter acesso ao projeto no google colab será necessário realizar alguns passos
@@ -259,3 +261,8 @@ Baseado nesses valores, foi traçado um gráfico de barras para melhorar a visua
 E para finalizar, foi feito um gráfico de barras mostrando a distribuição de clientes por nota.
 
 ![Distribuição de clientes por nota](./images/distribuicao_clientes.png)
+
+### Gerando o csv
+Foi gerado um DataFrame que foi exportado de acordo com o que a empresa solicitou, que pode ser encontrado na pasta output deste projeto: https://github.com/caiolima159/Biblioteca-Pandas/tree/main/Tratamento%20de%20dados/output
+
+![Csv gerado](./images/csv.png)

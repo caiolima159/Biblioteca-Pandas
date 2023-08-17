@@ -77,7 +77,7 @@ Em seguida, basta colar o link obtido no GitHub e selecionar a opção de Desafi
 
 ![Selecionando o projeto](./images/desafio5.png)
 
-### Base de dados  
+Após esses passos você estará vendo o código do projeto.
 
 ## Contextualização do modelo:
 ### Contexto:
@@ -192,5 +192,34 @@ Baseado nesses valores, foi traçado um gráfico de barras para melhorar a visua
 
 ![Gráfico de quantidades vendidas](./images/graf_quantidade.png)
 
+### Top 10 valor de venda por mês
+Calculando o valor de venda total por mês e classificando os 10 maiores.
 
+![Quantidades vendidas por mês](./images/vendas_mes.png)
 
+Baseado nesses valores, foi traçado um gráfico de linhas para melhorar a visualização dos resultados.
+
+![Gráfico de vendas por mês](./images/graf_vendas_mes.png)
+
+### Top 10 valor de venda total por mês e por país
+Calculando o valor de venda total por mês e por país e classificando os 10 maiores.
+
+![Quantidades vendidas por mês](./images/vendas_mes_pais.png)
+
+Baseado nesses valores, foi traçado um gráfico de barras para melhorar a visualização dos resultados.
+
+![Gráfico de vendas por mês](./images/graf_vendas_mes_pais.png)
+
+## RFM
+### Criando o RFM
+Foi feito um novo DataFrame com apenas as informações de CustomerID, Recency, Frequency e Monetary_Value, onde:
+
+CustomerID é a identificação do cliente;
+
+Recency é a quantidade de dias que o cliente não faz compras;
+
+Frequency é a quantidade de vezes que este cliente fez compras;
+
+Monetary_Value é a quantidade de dinheiro que o cliente gastou.
+
+![DataFrame do RFM](./images/rfm.png)

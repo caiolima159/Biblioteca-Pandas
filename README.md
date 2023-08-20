@@ -2,4 +2,6 @@
 
 Seja bem vindo aos meu projetos que utilizam a biblioteca pandas.
 
-Sinta-se livre para escolher qual tipo de projeto você deseja observar.
+Atualmente, o projeto mais completo é o de tratamento de dados, recomendo uma passadinha por lá.
+
+Porém, sinta-se livre para escolher qual tipo de projeto você deseja observar.
